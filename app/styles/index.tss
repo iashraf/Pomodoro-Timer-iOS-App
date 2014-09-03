@@ -1,0 +1,45 @@
+"#logoContainer": {
+	left: 0,
+	top: Alloy.Globals.topMargin,
+	right: 0,
+	//bottom: "375dp"
+	bottom: "345dp"
+	}
+
+	"#logo": {
+		width: "68dp",
+		height: "68dp",
+		backgroundImage: "logo.png",
+		hires: true
+		}
+
+"#buttonContainer": {
+	height: "345dp",
+	top: "auto",
+	//bottom: "30dp"
+	bottom: 0
+	}
+
+	"#btnTimerPomodoro": {
+		top: "30dp"
+		}
+
+	"#btnTimerShortBreak": {
+		top: "135dp"
+		}
+
+	"#btnTimerLongBreak": {
+		top: "240dp"
+		}
+
+	".labelDuration": {
+		bottom: 0,
+		height: "24dp",
+		font: {
+			fontFamily: Alloy.Globals.OpenSans,
+			fontWeight: "bold",
+			fontSize: "10dp"
+			},
+		color: "#111",
+		opacity: 0.5
+		}

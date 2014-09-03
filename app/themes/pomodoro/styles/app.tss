@@ -1,0 +1,64 @@
+"Window": {
+	barColor: "#B70400",
+	backgroundColor: "#B70400",
+	statusBarStyle: Ti.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	navBarHidden: true
+	}
+
+"Label": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	textAlign: "center",
+	verticalAlign: "center",
+	backgroundColor: "transparent",
+	color: "#fff",
+	font: {
+		fontFamily: Alloy.Globals.OpenSans
+		}
+	}
+
+"#btnBack": {
+	left: "10dp",
+	top: "30dp",
+	width: "55dp",
+	height: "30dp",
+	backgroundColor: "transparent",
+	backgroundImage: "btn_back.png",
+	hires: true,
+	color: "#fff",
+	zIndex: 500
+	}
+
+"#btnAlarm": {
+	left: "auto",
+	right: "10dp",
+	top: "30dp",
+	width: "30dp",
+	height: "30dp",
+	backgroundColor: "transparent",
+	backgroundImage: "btn_alarm.png",
+	hires: true,
+	zIndex: 500
+	}
+
+"#buttonContainer": {
+	backgroundColor: "#222"
+	}
+
+	"Button": {
+		style: "PLAIN",
+		width: Ti.UI.FILL,
+		height: "75dp",
+		left: "30dp",
+		right: "30dp",
+		textAlign: "center",
+		verticalAlign: "center",
+		backgroundColor: "#D9C1A7",
+		backgroundImage: "beige.png",
+		color: "#222",
+		font: {
+			fontFamily: Alloy.Globals.OpenSans,
+			fontSize: "30dp",
+			fontWeight: "bold"
+			}
+		}

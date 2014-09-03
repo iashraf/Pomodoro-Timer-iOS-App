@@ -1,0 +1,43 @@
+<Alloy>
+	<Window id="timer">
+
+		<Button id="btnBack"></Button>
+
+		<View id="stepperContainer">
+			<Label id="labelStepper"></Label>
+			<View id="btnStepperContainer">
+				<Label id="labelMetric">minutes</Label>
+				<Button class="btnStepper" id="btnStepperUp"></Button>
+				<Button class="btnStepper" id="btnStepperDown"></Button>
+			</View>
+		</View>
+
+		<Label id="labelCountdown"></Label>
+
+		<View id="buttonContainer">
+
+			<Button id="btnTimerAction">Start timer</Button>
+
+		</View>
+
+		<Button id="btnAlarm"></Button>
+		<View id="alarmPickerContainer">
+			<Picker id="alarmPicker">
+				<PickerRow title="Aurora" />
+				<PickerRow title="Bamboo" />
+				<PickerRow title="Chord" />
+				<PickerRow title="Circles" />
+				<PickerRow title="Complete" />
+				<PickerRow title="Hello" />
+				<PickerRow title="Input" />
+				<PickerRow title="Keys" />
+				<PickerRow title="Note" />
+				<PickerRow title="Popcorn" />
+				<PickerRow title="Pulse" />
+				<PickerRow title="Synth" />
+			</Picker>
+			<Button id="btnSaveAlarm">Save alarm</Button>
+		</View>
+		
+	</Window>
+</Alloy>

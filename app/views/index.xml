@@ -1,0 +1,26 @@
+<Alloy>
+	<NavigationWindow id="navgroup" platform="ios">
+		<Window>
+
+			<View id="logoContainer">
+				<View id="logo"></View>
+			</View>
+
+			<View id="buttonContainer">
+				<Button id="btnTimerPomodoro">
+					Pomodoro
+					<Label class="labelDuration">25 minutes</Label>
+				</Button>
+				<Button id="btnTimerShortBreak">
+					Short break
+					<Label class="labelDuration">5 minutes</Label>
+				</Button>
+				<Button id="btnTimerLongBreak">
+					Long break
+					<Label class="labelDuration">15 minutes</Label>
+				</Button>
+			</View>
+
+		</Window>
+	</NavigationWindow>
+</Alloy>

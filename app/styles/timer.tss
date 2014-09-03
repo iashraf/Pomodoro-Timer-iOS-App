@@ -1,0 +1,89 @@
+"#stepperContainer": {
+	top: Alloy.Globals.topMargin,
+	bottom: "150dp"
+	}
+
+	"#labelStepper": {
+		font: {
+			fontFamily: Alloy.Globals.OpenSans,
+			fontSize: "150dp",
+			}
+		}
+
+	"#btnStepperContainer": {
+		width: "100dp",
+		height: "300dp"
+		}
+
+		".btnStepper": {
+			width: "150dp",
+			height: "40dp",
+			left: "auto",
+			right: "auto",
+			backgroundColor: "transparent",
+			hires: true
+			}
+
+			"#btnStepperUp": {
+				top: "20dp",
+				backgroundImage: "btn_stepper_up.png"
+				}
+
+			"#btnStepperDown": {
+				bottom: 0,
+				backgroundImage: "btn_stepper_down.png"
+				}
+
+		"#labelMetric": {
+			height: "20dp",
+			top: "auto",
+			bottom: "55dp",
+			font: {
+				fontFamily: Alloy.Globals.OpenSans,
+				fontSize: "20dp",
+				fontWeight: "bold"
+				}
+			}
+
+"#labelCountdown": {
+	top: "20dp",
+	left: "20dp",
+	right: "20dp",
+	bottom: "135dp",
+	font: {
+		fontFamily: Alloy.Globals.OpenSans,
+		fontSize: "40dp",
+		}
+	}
+
+"#buttonContainer": {
+	height: "135dp",
+	top: "auto",
+	bottom: 0
+	}
+
+	"#btnTimerAction": {
+		top: "30dp"
+		}
+
+
+"#alarmPickerContainer": {
+	zIndex: 1000,
+	left: 0,
+	top: 0,
+	right: 0,
+	bottom: 0,
+	backgroundImage: "dim.png"
+	}
+
+	"#alarmPicker": {
+		selectionIndicator: true,
+		bottom: "75dp"
+		}
+
+	"#btnSaveAlarm": {
+		bottom: 0,
+		left: 0,
+		right: 0,
+		height: "75dp"
+		}
